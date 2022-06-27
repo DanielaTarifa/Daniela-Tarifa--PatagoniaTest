@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          default-label: master
-          uri: https://github.com/DanielaTarifa/patagoniaTest-main.git
+          default-label: main
+          uri: https://github.com/DanielaTarifa/Daniela-Tarifa--PatagoniaTest.git
           search-path: config-data
 
   application:
