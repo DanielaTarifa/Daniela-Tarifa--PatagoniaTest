@@ -1,13 +1,22 @@
 server:
   port: 8081
+  eureka:
+    client:
+      fetch-registry: true
+      register-with-eureka: true
+      service-url:
+        default-zone: http://localhost:8761/eureka
 spring:
   cloud:
     config:
       server:
         git:
-          default-label: main
+          default-label: apiGateway-circuitBreaker1
           uri: https://github.com/DanielaTarifa/Daniela-Tarifa--PatagoniaTest.git
           search-path: config-data
 
   application:
     name: config-service
+
+
+
