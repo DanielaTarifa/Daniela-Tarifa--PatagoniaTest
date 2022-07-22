@@ -1,0 +1,8 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
+
+PS C:\DOMESTIKA\PROGRAMACION\It Patagonia\INTELLIJ\clase150722\practica del examen\Daniela-Tarifa--PatagoniaTest\patagoniaTest-main\subject-service> docker ps -a
+error during connect: This error may indicate that the docker daemon is not running.: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1": open //./pipe/docker_engine: El sistema no puede encontrar el archivo especificado.
+PS C:\DOMESTIKA\PROGRAMACION\It Patagonia\INTELLIJ\clase150722\practica del examen\Daniela-Tarifa--PatagoniaTest\patagoniaTest-main\subject-service>
