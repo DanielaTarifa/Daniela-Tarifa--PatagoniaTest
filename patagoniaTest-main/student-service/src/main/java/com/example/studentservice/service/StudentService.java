@@ -14,7 +14,7 @@ import java.util.List;
 @Service
 public class StudentService {
     @Autowired
-    private StudentRepository studentRepository;
+    StudentRepository studentRepository;
 
     @Autowired
     RestTemplate restTemplate;
@@ -37,8 +37,8 @@ public class StudentService {
 
 
     public List<Subject> getStudents(int studentId){
-        //return restTemplate.getForObject("http://localhost:8002/exams/bystudent/"+studentId,List.class);
-        return (List<Subject>) subjectFeignClient.finByStudentId(studentId).getBody();
+        //return restTemplate.getForObject("http://localhost:8002/subjects/bystudent/"+studentId,List.class);
+        return (List<Subject>) subjectFeignClient.findByStudentId(studentId).getBody();
     }
 
 
